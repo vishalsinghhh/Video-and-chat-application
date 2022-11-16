@@ -19,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+    <div className="btn"><button><a href="http://localhost:3000">Video App</a></button></div>
       {!showChat ? (
         <div className="joinChatContainer">
           <h3>Join A Chat</h3>

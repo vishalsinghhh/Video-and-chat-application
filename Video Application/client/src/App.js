@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, AppBar } from '@material-ui/core';
+import { Typography, AppBar, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
 import VideoPlayer from './components/VideoPlayer';
@@ -39,7 +39,9 @@ const App = () => {
     <div className={classes.wrapper}>
       <AppBar className={classes.appBar} position="static" color="inherit">
         <Typography variant="h2" align="center">Video Chat</Typography>
+        <Button href="http://localhost:3002">Chat app</Button>
       </AppBar>
+
       <VideoPlayer />
       <Sidebar>
         <Notifications />
